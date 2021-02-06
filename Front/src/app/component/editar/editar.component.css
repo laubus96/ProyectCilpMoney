@@ -1,0 +1,124 @@
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 749.600px !important;
+    }
+    
+    .container-fluid {
+        height: 749.600px !important;
+    }
+    
+    .input {
+        border: white;
+    }
+    
+    .error {
+        color: red;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+    
+    .arrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .title {
+        margin: 2%;
+        padding: 1%;
+        color: white;
+        background-image: linear-gradient(#24803C, #5EAB97);
+    }
+    
+    .img-arr {
+        width: 15%;
+        /*height: 15%;*/
+    }
+    
+    .cont-reg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+    }
+    
+    .inp-reg {
+        display: flex;
+        flex-direction: row;
+        width: 33%;
+        padding: 1%;
+    }
+    
+    .inp-reg span {
+        display: flex;
+        justify-content: center;
+        padding: 0.2%;
+    }
+    
+    .direc-reg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+    }
+    
+    .direc-flex {
+        display: flex;
+        flex-direction: row;
+        padding-right: 10px;
+        margin-right: 10px;
+        padding: 2%;
+        width: 40%;
+    }
+    
+    .direc-flex span {}
+    
+    .btn-reg {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2%;
+    }
+    
+    .btn {
+        width: 15%;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        background-color: #5cb85c;
+        border-color: #5cb85c;
+        border-radius: 25px;
+        color: white;
+    }
+    
+    .fondoLogin {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .alto {
+        height: 100% !important;
+        width: 100% !important;
+        text-align: center;
+        position: absolute;
+    }
+    
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .img-user {
+        background-image: url(../../../assets/img/images.jpg);
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .imagenSubir {}

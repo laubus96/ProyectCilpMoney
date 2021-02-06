@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap" rel="stylesheet">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="cover d-flex justify-content-center align-items-center flex-column col-12 col-md-6" style="padding: 0%;"></div>
+            <div class=" fondoLogin col-12 col-md-6 " style="padding: 0%;">
+
+                <div class="alto ">
+
+                    <div class="header" style="padding: 0%;">
+                        <div class="arrow">
+                            <a href="/index.html">
+
+                            </a>
+                        </div>
+                        <div class="cont-title">
+                            <!-----------------------------hedear de registrar-------------------------------------->
+                            <span class="title">Registro</span>
+                            <span class="text-center">*Todos los campos son obligatorios</span>
+                        </div>
+                    </div>
+                    <form [formGroup]="singUpForm" (ngSubmit)="onSubmit(singUpForm.value)">
+                        <div class="cont-reg">
+                            <!-----------------------------Campos nombre y apellido -------------------------------------->
+
+
+                            <div class="direc-reg">
+                                <div class="direc-flex">
+                                    <span class="span-reg">Nombre</span>
+                                    <input type="text" class="form-control" id="nameReg" placeholder='Ej: Rodrigo' formControlName="nombre">
+                                    <div class="error" *ngIf="singUpForm.get('nombre').hasError('required') &&
+                           singUpForm.get('nombre').touched">
+                                        Campo obligatorio*
+                                    </div>
+
+
+                                </div>
+
+
+
+
+
+
+
+
+
+                                <div class="direc-flex">
+                                    <span class="span-reg ">Apellido</span>
+                                    <input type="text" class="form-control" id="lastnameReg" placeholder='Ej: Lopez' formControlName="apellido">
+                                    <div class="error" *ngIf="singUpForm.get('apellido').hasError('required') &&
+                           singUpForm.get('apellido').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                </div>
+                            </div>
+                            <!-----------------------------Campos alias -------------------------------------->
+                            <div class="direc-reg">
+                                <div class="direc-flex">
+                                    <span class="span-reg">Alias</span>
+                                    <input type="text" class="form-control" id="lastnameReg" placeholder='Ej: Lopez.juan.toto' formControlName="alias">
+                                    <div class="error" *ngIf="singUpForm.get('alias').hasError('required') &&
+                           singUpForm.get('alias').touched">
+                                        Campo obligatorio*
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-----------------------------Campos dni y telefono -------------------------------------->
+                            <div class="direc-reg">
+                                <div class="direc-flex">
+                                    <span class="span-reg">DNI</span>
+                                    <input type="text" class="form-control" id="dniReg" placeholder='Ej: 11.111.111' formControlName="dni">
+                                    <div class="error" *ngIf="singUpForm.get('dni').hasError('required') &&
+                           singUpForm.get('dni').touched">
+                                        Campo obligatorio*
+                                    </div>
+
+                                </div>
+                                <div class="direc-flex">
+                                    <span class="span-reg">Telefono</span>
+                                    <input type="text" class="form-control" id="telReg" placeholder='Ej: 155 55 5555' formControlName="telefono">
+                                    <div class="error" *ngIf="singUpForm.get('telefono').hasError('required') &&
+                           singUpForm.get('telefono').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-----------------------------Campos usuario y passaword -------------------------------------->
+                            <div class="direc-reg">
+                                <div class="direc-flex">
+                                    <span class="span-reg">Usuario</span>
+                                    <input type="text" class="form-control" id="userReg" placeholder='Ej: rlopez-2' formControlName="nomUsuario">
+                                    <div class="error" *ngIf="singUpForm.get('nomUsuario').hasError('required') &&
+                           singUpForm.get('nomUsuario').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                </div>
+                                <div class="direc-flex">
+                                    <span class="span-reg">Contrasena</span>
+                                    <input type="password" class="form-control" id="passwordReg" placeholder='contrasena123' formControlName="password">
+                                    <div class="error" *ngIf="singUpForm.get('password').hasError('required') &&
+                           singUpForm.get('password').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                    <div class="error" *ngIf="singUpForm.get('password').hasError('maxLength') &&
+                           singUpForm.get('password').touched">
+                                        Minimo 8 caracteres*
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-----------------------------Campos email  -------------------------------------->
+                            <div class="direc-reg">
+                                <div class="direc-flex">
+                                    <span class="span-reg">E-mail</span>
+                                    <input type="text" class="form-control" id="emailReg" placeholder='Ej: rlopez@clipmoney.com' formControlName="email">
+                                    <div class="error" *ngIf="singUpForm.get('email').hasError('required')  &&
+                           singUpForm.get('email').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                    <div class="error" *ngIf="singUpForm.get('email').hasError('pattern') &&
+                           singUpForm.get('email').touched">
+                                        No es un email valido*
+
+                                    </div>
+                                </div>
+                                <!-----------------------------Campos pais -------------------------------------->
+                                <div class="direc-flex">
+                                    <span class="span-reg">Pais</span>
+                                    <select formControlName="idPais" class="form-control" id="paisReg" required [(ngModel)]="selectedPais.idPais" (change)="onSelectPais($event.target.value)">
+                    <option *ngFor="let pais of paises" value={{pais.idPais}}>
+                      {{pais.nombre}}
+
+                    </option>
+
+                  </select>
+                                    <div class="error" *ngIf="singUpForm.get('idPais').hasError('required') &&
+                           singUpForm.get('idPais').touched">
+                                        Campo obligatorio*
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="direc-reg">
+                                <!-----------------------------Campos provincia -------------------------------------->
+                                <div class="direc-flex">
+                                    <span class="span-reg">Provincia</span>
+                                    <select required [(ngModel)]="selectedProvincia.idProvincia" (change)="onSelectProvincia($event.target.value)" class="form-control" formControlName="idProvincia">
+                    <option *ngFor="let provincia of provincias" value={{provincia.idProvincia}}>
+                      {{provincia.nombre}}
+
+                    </option>
+                  </select>
+                                    <div class="error" *ngIf="singUpForm.get('idProvincia').hasError('required') &&
+                           singUpForm.get('idProvincia').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                </div>
+                                <!-----------------------------Campos localidad -------------------------------------->
+                                <div class="direc-flex">
+                                    <span class="span-reg">Localidad</span>
+                                    <select class="form-control" formControlName="idLocalidad">
+                    <option *ngFor="let localidad of localidades" value={{localidad.idLocalidad}}>
+                      {{localidad.nombre}}
+                    </option>
+                  </select>
+                                    <div class="error" *ngIf="singUpForm.get('idLocalidad').hasError('required') &&
+                           singUpForm.get('idLocalidad').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                </div>
+                            </div>
+                            <!-----------------------------Campos calle y altura -------------------------------------->
+                            <div class="direc-reg">
+                                <div class="direc-flex">
+                                    <span class="span-reg">calle</span>
+                                    <input type="text" class="form-control" id="calleReg" placeholder='Ej: Independencia' formControlName="calle">
+                                    <div class="error" *ngIf="singUpForm.get('calle').hasError('required') &&
+                           singUpForm.get('calle').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                </div>
+                                <div class="direc-flex">
+                                    <span class="span-reg">Altura</span>
+                                    <input type="text" class="form-control" id="altReg" placeholder='Ej: 1500' formControlName="altura">
+                                    <div class="error" *ngIf="singUpForm.get('altura').hasError('required') &&
+                           singUpForm.get('altura').touched">
+                                        Campo obligatorio*
+                                    </div>
+                                </div>
+                            </div>
+                            <!-----------------------------Campos subir una imagen -------------------------------------->
+                            <form action="#" method="POST" enctype="multipart/form-data">
+                                <br>
+                                <div class="direc-reg">
+                                    <div class="direc-flex ">
+                                        <div class="img-user" style="align-items: center;">
+
+                                        </div>
+                                        <label for="foto">Imagen</label>
+                                        <input name="foto" type="file">
+
+                                        <button class="btn-img" type="submit">Subir</button>
+
+
+                                    </div>
+
+
+
+
+                                </div>
+
+                            </form>
+
+                            <!-----------------------------Botones -------------------------------------->
+                            <div class="btn-reg">
+                                <button [disabled]="singUpForm.invalid" type="submit" class="bton">Aceptar</button>
+                                <button class="bton" routerLink="/">Cancelar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

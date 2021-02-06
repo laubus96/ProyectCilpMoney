@@ -1,0 +1,463 @@
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Mvc.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.dll.config
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.pdb
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.exe
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.exe.config
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.rsp
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.exe
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.exe.config
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.rsp
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.AppContext.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Console.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.Compression.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Net.Http.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Net.Sockets.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.ValueTuple.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.exe
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.exe.config
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.rsp
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Antlr3.Runtime.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BCrypt.Net-Next.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.SqlServer.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Newtonsoft.Json.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Buffers.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Memory.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Net.Http.Formatting.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Numerics.Vectors.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Cors.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Helpers.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.Cors.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.WebHost.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Mvc.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Optimization.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Razor.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Razor.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\WebGrease.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Antlr3.Runtime.pdb
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BCrypt.Net-Next.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.SqlServer.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Newtonsoft.Json.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Buffers.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Memory.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Net.Http.Formatting.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Numerics.Vectors.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Helpers.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.Cors.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.WebHost.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Optimization.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Razor.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Razor.xml
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Helpers.resources.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Mvc.resources.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Optimization.resources.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Razor.resources.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.resources.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.dll
+C:\Users\USUARIO\Desktop\Nueva carpeta\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.pdb
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.dll.config
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.pdb
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.exe
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.exe.config
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.rsp
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.exe
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.exe.config
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.rsp
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.AppContext.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Console.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.Compression.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Net.Http.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.ValueTuple.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.exe
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.exe.config
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.rsp
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Antlr3.Runtime.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.SqlServer.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Newtonsoft.Json.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Buffers.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Memory.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Net.Http.Formatting.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Numerics.Vectors.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Cors.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Helpers.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.Cors.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.WebHost.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Mvc.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Optimization.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Razor.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Razor.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\WebGrease.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Antlr3.Runtime.pdb
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.SqlServer.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Newtonsoft.Json.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Buffers.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Memory.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Net.Http.Formatting.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Numerics.Vectors.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Helpers.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.Cors.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.WebHost.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Mvc.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Optimization.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Razor.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Razor.xml
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Razor.resources.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csprojAssemblyReference.cache
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CoreCompileInputs.cache
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CopyComplete
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.dll
+C:\Users\Emanuel\Desktop\proyecto\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.pdb
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\BackenBilletera.dll.config
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\BackenBilletera.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\BackenBilletera.pdb
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\csc.exe
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\csc.exe.config
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\csc.rsp
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\csi.exe
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\csi.exe.config
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\csi.rsp
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.Managed.Core.targets
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.AppContext.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Collections.Immutable.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Console.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Globalization.Calendars.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.IO.Compression.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Net.Http.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Net.Sockets.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Reflection.Metadata.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.ValueTuple.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Xml.XmlDocument.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\vbc.exe
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\vbc.exe.config
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\vbc.rsp
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe.config
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Antlr3.Runtime.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\EntityFramework.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\EntityFramework.SqlServer.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.Web.Infrastructure.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Newtonsoft.Json.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Buffers.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Memory.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Net.Http.Formatting.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Numerics.Vectors.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Cors.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Helpers.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Http.Cors.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Http.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Http.WebHost.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Mvc.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Optimization.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Razor.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.WebPages.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.WebPages.Razor.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\WebGrease.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Antlr3.Runtime.pdb
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\EntityFramework.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\EntityFramework.SqlServer.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\Newtonsoft.Json.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Buffers.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Memory.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Net.Http.Formatting.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Numerics.Vectors.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Helpers.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Http.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Http.Cors.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Http.WebHost.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Mvc.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Optimization.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.Razor.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.WebPages.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\System.Web.WebPages.Razor.xml
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\es\System.Web.Helpers.resources.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\es\System.Web.Mvc.resources.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\es\System.Web.Optimization.resources.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\es\System.Web.Razor.resources.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\es\System.Web.WebPages.resources.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\obj\Debug\BackenBilletera.csprojAssemblyReference.cache
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CoreCompileInputs.cache
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CopyComplete
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\obj\Debug\BackenBilletera.dll
+D:\proyecto-clip-money-d-g4d-1-78\Back\BackenBilletera\obj\Debug\BackenBilletera.pdb
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.dll.config
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BackenBilletera.pdb
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.exe
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.exe.config
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csc.rsp
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.exe
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.exe.config
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\csi.rsp
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Managed.Core.targets
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.AppContext.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Collections.Immutable.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Console.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Globalization.Calendars.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.Compression.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Net.Http.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Net.Sockets.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Reflection.Metadata.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.ValueTuple.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XmlDocument.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.exe
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.exe.config
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\vbc.rsp
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\roslyn\VBCSCompiler.exe.config
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Antlr3.Runtime.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.SqlServer.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.Web.Infrastructure.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Newtonsoft.Json.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Buffers.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Memory.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Net.Http.Formatting.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Numerics.Vectors.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Cors.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Helpers.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.Cors.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.WebHost.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Mvc.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Optimization.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Razor.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Razor.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\WebGrease.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Antlr3.Runtime.pdb
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\EntityFramework.SqlServer.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Logging.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Microsoft.IdentityModel.Tokens.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\Newtonsoft.Json.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Buffers.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Memory.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Net.Http.Formatting.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Numerics.Vectors.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Helpers.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.Cors.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Http.WebHost.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Mvc.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Optimization.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.Razor.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Deployment.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\System.Web.WebPages.Razor.xml
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Helpers.resources.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Mvc.resources.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Optimization.resources.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.Razor.resources.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.resources.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csprojAssemblyReference.cache
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CoreCompileInputs.cache
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.csproj.CopyComplete
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\obj\Debug\BackenBilletera.pdb
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BCrypt.Net.dll
+D:\proyecto-clip-money-d-g4d-1\Back\BackenBilletera\bin\BCrypt.Net.xml

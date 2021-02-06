@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Transferencias</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-----------------------------titulo de tranferencia-------------------------------------->
+                <div class="title text-center">
+                    <span>Tranferencia</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!-----------------------------Formulario-------------------------------------->
+                <form [formGroup]="upTransferencia" (ngSubmit)="onSubmit(upTransferencia.value)">
+                    <div class="dat-deb">
+                        <span class="header ">Datos de debito</span>
+                        <div class="input">
+                            <span>Monto a transferir</span>
+                            <input type="text" placeholder="Monto a transferir" name="monto" id="monto" formControlName="monto">
+                            <div class="error" *ngIf="upTransferencia.get('monto').hasError('required') &&
+                           upTransferencia.get('monto').touched">
+                                Campo obligatorio*
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dat-deb">
+                        <span class="header">Datos de credito</span>
+                        <div class="input">
+                            <span>Cuenta de destino</span>
+
+                            <select class="form-control" formControlName="idUserDestino" [(ngModel)]="selectedDestino.alias" class="form-control" required (change)="onSelectAlias($event.target.value)">
+                <option *ngFor="let des of listDestino" value={{des.idUserDestino}}>
+                  {{des.alias}}
+
+                </option>
+
+              </select>
+
+                        </div>
+                        <div class="input ">
+                            <span>E-mail de notificacion</span>
+                            <input type="text " required formControlName="email">
+                            <div class="error" *ngIf="upTransferencia.get('email').hasError('required')  &&
+                           upTransferencia.get('email').touched">
+                                Campo obligatorio*
+                            </div>
+                            <div class="error" *ngIf="upTransferencia.get('email').hasError('pattern') &&
+                           upTransferencia.get('email').touched">
+                                No es un email valido*
+
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn  colors" [disabled]="upTransferencia.invalid" routerLink="/transferir">Enviar</button>
+
+                </form>
+
+
+            </div>
+
+        </div>
+        <div class="row ">
+            <div class="col-4 ">
+                <!-----------------------------Botones-------------------------------------->
+                <div class="div-button ">
+
+                </div>
+
+            </div>
+            <div class="col-4 ">
+                <div class="div-button ">
+                    <button class="btn  colors" mat-button (click)="openDialog()">Agregar
+            Destino</button>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div class="div-button ">
+                    <button class="btn  colors" routerLink="/home">Volver</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

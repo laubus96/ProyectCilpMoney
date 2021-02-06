@@ -1,0 +1,58 @@
+<div mat-dialog-content>
+
+    <h4 class="text-center title ">Datos de nuevo destino</h4>
+    <br>
+
+
+
+
+    <form [formGroup]="upDestino " (ngSubmit)="onDestino(upDestino.value) ">
+        <span> Alias del destino: </span>
+        <input class="input " type="text " name="alias " id="alias " placeholder="Alias " formControlName="alias">
+        <div class="error" *ngIf="upDestino.get('alias').hasError('required') &&
+                           upDestino.get('alias').touched">
+            Campo obligatorio*
+        </div>
+        <br>
+        <br>
+        <span> Nombre del destino: </span>
+        <input class="input " type="text " name="nombre " id="nombre " placeholder="Nombre " formControlName="nombre">
+        <div class="error" *ngIf="upDestino.get('nombre').hasError('required') &&
+                           upDestino.get('nombre').touched">
+            Campo obligatorio*
+        </div>
+        <br>
+        <br>
+        <span> Apellido del destino: </span>
+        <input class="input " type="text " name="apellido " id="apellido " placeholder="Apellido " formControlName="apellido">
+        <div class="error" *ngIf="upDestino.get('apellido').hasError('required') &&
+                           upDestino.get('apellido').touched">
+            Campo obligatorio*
+        </div>
+        <br>
+        <br>
+        <span> Email del destino: </span>
+        <input class="input " type="text " name="email " id="email " placeholder="Email " formControlName="email">
+        <div class="error" *ngIf="upDestino.get('email').hasError('required')  &&
+                           upDestino.get('email').touched">
+            Campo obligatorio*
+        </div>
+        <div class="error" *ngIf="upDestino.get('email').hasError('pattern') &&
+                           upDestino.get('email').touched">
+            No es un email valido*
+
+        </div>
+
+        <br>
+        <br>
+        <button type="submit " class="btn btn-success colorNuevo" [disabled]="upDestino.invalid" routerLink="/transferir">Agregar Destino</button>
+
+
+    </form>
+
+</div>
+<div mat-mat-dialog-actions>
+    <br>
+
+    <button class="btn btn-danger colorsCerrar" mat-button [mat-dialog-close]="true">Cerrar</button>
+</div>

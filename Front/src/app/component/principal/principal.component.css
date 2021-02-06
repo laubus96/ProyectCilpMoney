@@ -1,0 +1,190 @@
+/* modal */
+
+.colorNuevo {
+    background-color: #5cb85c !important;
+    color: white;
+}
+
+.title {
+    margin: 2%;
+    padding: 1%;
+    color: white;
+    background-image: linear-gradient(#24803C, #5EAB97);
+}
+
+.colorsCerrar {
+    background-color: #d9534f !important;
+    color: white;
+}
+
+.colorNuevo {
+    background-color: #5cb85c !important;
+    color: white;
+}
+
+
+/* modal */
+
+.login-form {
+    margin-top: 50px;
+}
+
+.login {
+    max-width: 330px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 50px 45px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-icon {
+    text-align: center;
+}
+
+.form-icon i {
+    font-size: 100px;
+    display: block;
+    color: #47d9f1;
+}
+
+.login .form-horizontal {
+    padding: 40px 0;
+    margin-top: 45px;
+}
+
+.login .form-group {
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 0 0 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0px 2px 5px 0px #47d9f1;
+}
+
+.login .input-icon {
+    color: #bec6d4;
+    font-size: 15px;
+    text-align: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.login .form-control {
+    color: #bec6d4;
+    background: transparent;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    width: calc(100% - 55px);
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.login .form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.login .form-control::placeholder {
+    color: #bec6d4;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.btn.signin {
+    color: rgba(255, 255, 255, 0.8);
+    background: #47D9F4;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    outline: 0;
+    margin-top: 30px;
+    padding: 10px 40px;
+}
+
+.signup {
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    color: #bec6d4;
+    margin-top: 25px;
+    font-weight: 300;
+}
+
+.signup a {
+    color: #47d9f1;
+    transition: all 0.3s ease;
+}
+
+.signup a:hover {
+    color: #777;
+    text-decoration: underline;
+}
+
+
+/*registermodal*/
+
+.login .modal-sm {
+    width: 330px;
+}
+
+.login .modal-title {
+    font-size: 30px;
+    color: #47d9f4;
+}
+
+.Condiciones label {
+    font-weight: 300;
+}
+
+.Condiciones {
+    text-decoration: none;
+}
+
+
+/* no modal */
+
+.logotipo {
+    width: 120px;
+    padding: 10px 0;
+}
+
+.iconos-redes {
+    width: 30px;
+    margin: 10px 5;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 500px;
+}
+
+.imgFooter {
+    width: 100px;
+}
+
+.pieFooter {
+    color: black;
+    font-size: 15px;
+}
+
+#aboutus {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.close {
+    position: relative;
+    top: -440px;
+    right: -15px
+}

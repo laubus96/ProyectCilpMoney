@@ -1,0 +1,28 @@
+<div mat-dialog-content>
+
+    <h4 class="text-center title ">Ingresar email</h4>
+    <br>
+
+
+
+
+    <form [formGroup]="upSaldoForm" (ngSubmit)="onSubmit(upSaldoForm.value)" class="text-center">
+        <span> Depositar: </span>
+        <input type="text" name="saldo" id="saldo" placeholder='Ej: 100' formControlName="monto">
+        <div class="error" *ngIf="upSaldoForm.get('monto').hasError('required') &&
+                           upSaldoForm.get('monto').touched">
+            Campo obligatorio*
+        </div>
+        <br>
+        <br>
+        <button type="submit" class="btn colorNuevo " [disabled]="upSaldoForm.invalid">Ingresar
+      Dinero</button>
+
+    </form>
+
+</div>
+<div mat-mat-dialog-actions>
+    <br>
+
+    <button class="btn btn-danger colorsCerrar" mat-button [mat-dialog-close]="true">Cerrar</button>
+</div>

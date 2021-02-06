@@ -1,0 +1,100 @@
+<div *ngIf="currentUser">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-2">
+                <!DOCTYPE html>
+                <html lang="en">
+
+                <head>
+                    <meta charset="UTF-8">
+
+                    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+                    <link rel="preconnect" href="https://fonts.gstatic.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com">
+                    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+                    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap" rel="stylesheet">
+                </head>
+
+                <body>
+
+
+                    <div class="wrapper">
+                        <div class="sidebar">
+                            <h2>
+                                <div class="header">
+
+                                    <!-- <fa-icon [icon]="faCoffee"></fa-icon> -->
+                                    <span class="title">CLIP MONEY</span>
+
+                                </div>
+                            </h2>
+
+                            <div class="img-user-perfil text-center">
+                                <img src="../assets/img/1200px-User_icon_2.svg.png" alt="">
+
+
+                            </div>
+
+
+                            <ul>
+
+                                <li><a routerLink="/home"><i class="fas fa-home"></i>Home</a></li>
+                                <li><a routerLink="/editar"><i class="fas fa-user"></i>Perfil</a></li>
+
+                                <li>
+                                    <a routerLink="/construccion"> <i class="fas fa-water    "></i> Servicios</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/construccion"> <i class="fas fa-business-time    "></i>Inversiones</a>
+                                </li>
+                                <li><a (click)="logout()"><i class="fas fa-address-card"></i>Cerrar Sesion</a></li>
+
+
+                            </ul>
+
+
+                            <div class="social_media">
+                                <a routerLink="/construccion"><i class="fab fa-facebook-f"></i></a>
+                                <a routerLink="/construccion"><i class="fab fa-twitter"></i></a>
+                                <a routerLink="/construccion"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </body>
+
+                </html>
+
+            </div>
+            <div class="col-12 col-md-10" *ngIf="currentUser">
+
+                <router-outlet></router-outlet>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div *ngIf=" !currentUser">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+
+                <router-outlet></router-outlet>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

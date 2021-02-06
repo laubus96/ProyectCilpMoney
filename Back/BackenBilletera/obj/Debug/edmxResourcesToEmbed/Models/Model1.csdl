@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBbilleteraModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBbilleteraEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Destinos" EntityType="DBbilleteraModel.Destinos" />
+    <EntitySet Name="Factura" EntityType="DBbilleteraModel.Factura" />
+    <EntitySet Name="FondoComun" EntityType="DBbilleteraModel.FondoComun" />
+    <EntitySet Name="Localidad" EntityType="DBbilleteraModel.Localidad" />
+    <EntitySet Name="Moneda" EntityType="DBbilleteraModel.Moneda" />
+    <EntitySet Name="Movimiento" EntityType="DBbilleteraModel.Movimiento" />
+    <EntitySet Name="Pais" EntityType="DBbilleteraModel.Pais" />
+    <EntitySet Name="PlazoFijo" EntityType="DBbilleteraModel.PlazoFijo" />
+    <EntitySet Name="Provincia" EntityType="DBbilleteraModel.Provincia" />
+    <EntitySet Name="Saldo" EntityType="DBbilleteraModel.Saldo" />
+    <EntitySet Name="Servicio" EntityType="DBbilleteraModel.Servicio" />
+    <EntitySet Name="sysdiagrams" EntityType="DBbilleteraModel.sysdiagrams" />
+    <EntitySet Name="TipoMovimiento" EntityType="DBbilleteraModel.TipoMovimiento" />
+    <EntitySet Name="Transferencia" EntityType="DBbilleteraModel.Transferencia" />
+    <EntitySet Name="Usuario" EntityType="DBbilleteraModel.Usuario" />
+    <AssociationSet Name="FK_Transferencia_Destinos" Association="DBbilleteraModel.FK_Transferencia_Destinos">
+      <End Role="Destinos" EntitySet="Destinos" />
+      <End Role="Transferencia" EntitySet="Transferencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Factura_Servicio" Association="DBbilleteraModel.FK_Factura_Servicio">
+      <End Role="Servicio" EntitySet="Servicio" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FondoComun_1_Usuario" Association="DBbilleteraModel.FK_FondoComun_1_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="FondoComun" EntitySet="FondoComun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Localidad_Provincia" Association="DBbilleteraModel.FK_Localidad_Provincia">
+      <End Role="Provincia" EntitySet="Provincia" />
+      <End Role="Localidad" EntitySet="Localidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Localidad" Association="DBbilleteraModel.FK_Usuario_Localidad">
+      <End Role="Localidad" EntitySet="Localidad" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Saldo_Moneda" Association="DBbilleteraModel.FK_Saldo_Moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="Saldo" EntitySet="Saldo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transferencia_Moneda" Association="DBbilleteraModel.FK_Transferencia_Moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="Transferencia" EntitySet="Transferencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Movimiento_TipoMovimiento" Association="DBbilleteraModel.FK_Movimiento_TipoMovimiento">
+      <End Role="TipoMovimiento" EntitySet="TipoMovimiento" />
+      <End Role="Movimiento" EntitySet="Movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Movimiento_Usuario" Association="DBbilleteraModel.FK_Movimiento_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Movimiento" EntitySet="Movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Provincia_Pais" Association="DBbilleteraModel.FK_Provincia_Pais">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Provincia" EntitySet="Provincia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Pais" Association="DBbilleteraModel.FK_Usuario_Pais">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PlazoFijo_Usuario" Association="DBbilleteraModel.FK_PlazoFijo_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="PlazoFijo" EntitySet="PlazoFijo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Provincia" Association="DBbilleteraModel.FK_Usuario_Provincia">
+      <End Role="Provincia" EntitySet="Provincia" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Saldo_Usuario" Association="DBbilleteraModel.FK_Saldo_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Saldo" EntitySet="Saldo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Servicio_Usuario" Association="DBbilleteraModel.FK_Servicio_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Servicio" EntitySet="Servicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transferencia_Usuario" Association="DBbilleteraModel.FK_Transferencia_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Transferencia" EntitySet="Transferencia" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Destinos">
+    <Key>
+      <PropertyRef Name="idUserDestino" />
+    </Key>
+    <Property Name="idUserOrigen" Type="Int32" Nullable="false" />
+    <Property Name="idUserDestino" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="alias" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Transferencia" Relationship="DBbilleteraModel.FK_Transferencia_Destinos" FromRole="Destinos" ToRole="Transferencia" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="idFactura" />
+    </Key>
+    <Property Name="idFactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="monto" Type="Int32" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="idServicio" Type="Int32" />
+    <NavigationProperty Name="Servicio" Relationship="DBbilleteraModel.FK_Factura_Servicio" FromRole="Factura" ToRole="Servicio" />
+  </EntityType>
+  <EntityType Name="FondoComun">
+    <Key>
+      <PropertyRef Name="idFondoComun" />
+    </Key>
+    <Property Name="idFondoComun" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="monto" Type="Int32" Nullable="false" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_FondoComun_1_Usuario" FromRole="FondoComun" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Localidad">
+    <Key>
+      <PropertyRef Name="idLocalidad" />
+    </Key>
+    <Property Name="idLocalidad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idProvincia" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Provincia" Relationship="DBbilleteraModel.FK_Localidad_Provincia" FromRole="Localidad" ToRole="Provincia" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_Usuario_Localidad" FromRole="Localidad" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="idMoneda" />
+    </Key>
+    <Property Name="idMoneda" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cotizacion" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Saldo" Relationship="DBbilleteraModel.FK_Saldo_Moneda" FromRole="Moneda" ToRole="Saldo" />
+    <NavigationProperty Name="Transferencia" Relationship="DBbilleteraModel.FK_Transferencia_Moneda" FromRole="Moneda" ToRole="Transferencia" />
+  </EntityType>
+  <EntityType Name="Movimiento">
+    <Key>
+      <PropertyRef Name="idMovimiento" />
+    </Key>
+    <Property Name="idMovimiento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="idTipoMov" Type="Int32" Nullable="false" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <Property Name="monto" Type="Int32" Nullable="false" />
+    <Property Name="numComprobante" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TipoMovimiento" Relationship="DBbilleteraModel.FK_Movimiento_TipoMovimiento" FromRole="Movimiento" ToRole="TipoMovimiento" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_Movimiento_Usuario" FromRole="Movimiento" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Pais">
+    <Key>
+      <PropertyRef Name="idPais" />
+    </Key>
+    <Property Name="idPais" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Provincia" Relationship="DBbilleteraModel.FK_Provincia_Pais" FromRole="Pais" ToRole="Provincia" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_Usuario_Pais" FromRole="Pais" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="PlazoFijo">
+    <Key>
+      <PropertyRef Name="idOperacionPlazo" />
+    </Key>
+    <Property Name="idOperacionPlazo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="monto" Type="Int32" Nullable="false" />
+    <Property Name="tiempo" Type="Int32" Nullable="false" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_PlazoFijo_Usuario" FromRole="PlazoFijo" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Provincia">
+    <Key>
+      <PropertyRef Name="idProvincia" />
+    </Key>
+    <Property Name="idProvincia" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idPais" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Localidad" Relationship="DBbilleteraModel.FK_Localidad_Provincia" FromRole="Provincia" ToRole="Localidad" />
+    <NavigationProperty Name="Pais" Relationship="DBbilleteraModel.FK_Provincia_Pais" FromRole="Provincia" ToRole="Pais" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_Usuario_Provincia" FromRole="Provincia" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Saldo">
+    <Key>
+      <PropertyRef Name="idSaldo" />
+    </Key>
+    <Property Name="idSaldo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="monto" Type="Int32" Nullable="false" />
+    <Property Name="idMoneda" Type="Int32" Nullable="false" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Moneda" Relationship="DBbilleteraModel.FK_Saldo_Moneda" FromRole="Saldo" ToRole="Moneda" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_Saldo_Usuario" FromRole="Saldo" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Servicio">
+    <Key>
+      <PropertyRef Name="idServicio" />
+    </Key>
+    <Property Name="idServicio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Factura" Relationship="DBbilleteraModel.FK_Factura_Servicio" FromRole="Servicio" ToRole="Factura" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_Servicio_Usuario" FromRole="Servicio" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TipoMovimiento">
+    <Key>
+      <PropertyRef Name="idTipoMovimento" />
+    </Key>
+    <Property Name="idTipoMovimento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Movimiento" Relationship="DBbilleteraModel.FK_Movimiento_TipoMovimiento" FromRole="TipoMovimiento" ToRole="Movimiento" />
+  </EntityType>
+  <EntityType Name="Transferencia">
+    <Key>
+      <PropertyRef Name="idTransferencia" />
+    </Key>
+    <Property Name="idTransferencia" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="monto" Type="Int32" Nullable="false" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <Property Name="idDestino" Type="Int32" Nullable="false" />
+    <Property Name="idMoneda" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Destinos" Relationship="DBbilleteraModel.FK_Transferencia_Destinos" FromRole="Transferencia" ToRole="Destinos" />
+    <NavigationProperty Name="Moneda" Relationship="DBbilleteraModel.FK_Transferencia_Moneda" FromRole="Transferencia" ToRole="Moneda" />
+    <NavigationProperty Name="Usuario" Relationship="DBbilleteraModel.FK_Transferencia_Usuario" FromRole="Transferencia" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="alias" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dni" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="Int32" Nullable="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nomUsuario" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="idProvincia" Type="Int32" Nullable="false" />
+    <Property Name="idLocalidad" Type="Int32" Nullable="false" />
+    <Property Name="idPais" Type="Int32" Nullable="false" />
+    <Property Name="calle" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="altura" Type="Int32" Nullable="false" />
+    <Property Name="tokenMail" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="FondoComun" Relationship="DBbilleteraModel.FK_FondoComun_1_Usuario" FromRole="Usuario" ToRole="FondoComun" />
+    <NavigationProperty Name="Localidad" Relationship="DBbilleteraModel.FK_Usuario_Localidad" FromRole="Usuario" ToRole="Localidad" />
+    <NavigationProperty Name="Movimiento" Relationship="DBbilleteraModel.FK_Movimiento_Usuario" FromRole="Usuario" ToRole="Movimiento" />
+    <NavigationProperty Name="Pais" Relationship="DBbilleteraModel.FK_Usuario_Pais" FromRole="Usuario" ToRole="Pais" />
+    <NavigationProperty Name="PlazoFijo" Relationship="DBbilleteraModel.FK_PlazoFijo_Usuario" FromRole="Usuario" ToRole="PlazoFijo" />
+    <NavigationProperty Name="Provincia" Relationship="DBbilleteraModel.FK_Usuario_Provincia" FromRole="Usuario" ToRole="Provincia" />
+    <NavigationProperty Name="Saldo" Relationship="DBbilleteraModel.FK_Saldo_Usuario" FromRole="Usuario" ToRole="Saldo" />
+    <NavigationProperty Name="Servicio" Relationship="DBbilleteraModel.FK_Servicio_Usuario" FromRole="Usuario" ToRole="Servicio" />
+    <NavigationProperty Name="Transferencia" Relationship="DBbilleteraModel.FK_Transferencia_Usuario" FromRole="Usuario" ToRole="Transferencia" />
+  </EntityType>
+  <Association Name="FK_Transferencia_Destinos">
+    <End Type="DBbilleteraModel.Destinos" Role="Destinos" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Transferencia" Role="Transferencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Destinos">
+        <PropertyRef Name="idUserDestino" />
+      </Principal>
+      <Dependent Role="Transferencia">
+        <PropertyRef Name="idDestino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Factura_Servicio">
+    <End Type="DBbilleteraModel.Servicio" Role="Servicio" Multiplicity="0..1" />
+    <End Type="DBbilleteraModel.Factura" Role="Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicio">
+        <PropertyRef Name="idServicio" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="idServicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FondoComun_1_Usuario">
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="DBbilleteraModel.FondoComun" Role="FondoComun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="FondoComun">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Localidad_Provincia">
+    <End Type="DBbilleteraModel.Provincia" Role="Provincia" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Localidad" Role="Localidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Provincia">
+        <PropertyRef Name="idProvincia" />
+      </Principal>
+      <Dependent Role="Localidad">
+        <PropertyRef Name="idProvincia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Localidad">
+    <End Type="DBbilleteraModel.Localidad" Role="Localidad" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Localidad">
+        <PropertyRef Name="idLocalidad" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idLocalidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Saldo_Moneda">
+    <End Type="DBbilleteraModel.Moneda" Role="Moneda" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Saldo" Role="Saldo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="idMoneda" />
+      </Principal>
+      <Dependent Role="Saldo">
+        <PropertyRef Name="idMoneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transferencia_Moneda">
+    <End Type="DBbilleteraModel.Moneda" Role="Moneda" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Transferencia" Role="Transferencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="idMoneda" />
+      </Principal>
+      <Dependent Role="Transferencia">
+        <PropertyRef Name="idMoneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Movimiento_TipoMovimiento">
+    <End Type="DBbilleteraModel.TipoMovimiento" Role="TipoMovimiento" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Movimiento" Role="Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoMovimiento">
+        <PropertyRef Name="idTipoMovimento" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="idTipoMov" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Movimiento_Usuario">
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Movimiento" Role="Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Provincia_Pais">
+    <End Type="DBbilleteraModel.Pais" Role="Pais" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Provincia" Role="Provincia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="idPais" />
+      </Principal>
+      <Dependent Role="Provincia">
+        <PropertyRef Name="idPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Pais">
+    <End Type="DBbilleteraModel.Pais" Role="Pais" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="idPais" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PlazoFijo_Usuario">
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="DBbilleteraModel.PlazoFijo" Role="PlazoFijo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="PlazoFijo">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Provincia">
+    <End Type="DBbilleteraModel.Provincia" Role="Provincia" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Provincia">
+        <PropertyRef Name="idProvincia" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idProvincia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Saldo_Usuario">
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Saldo" Role="Saldo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Saldo">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Servicio_Usuario">
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Servicio" Role="Servicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Servicio">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transferencia_Usuario">
+    <End Type="DBbilleteraModel.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="DBbilleteraModel.Transferencia" Role="Transferencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Transferencia">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

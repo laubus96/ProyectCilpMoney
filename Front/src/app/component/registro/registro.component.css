@@ -1,0 +1,165 @@
+     body {
+         display: contents;
+         align-items: center;
+         flex-direction: column;
+         height: 100%;
+         font-family: 'Quicksand', sans-serif;
+     }
+     
+     .error {
+         color: red;
+         font-family: sans-serif;
+         font-size: 10px;
+     }
+     
+     .arrow {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+     }
+     
+     .img-arr {
+         width: 15%;
+         /*height: 15%;*/
+     }
+     
+     .title {
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 4.5em;
+         color: white;
+     }
+     
+     .header {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 3%;
+         margin-bottom: 75px;
+         color: white;
+     }
+     
+     .span-reg {
+         color: white;
+     }
+     
+     .cont-title {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-content: center;
+     }
+     
+     .cont-reg {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+         height: 10%;
+     }
+     
+     .inp-reg {
+         display: flex;
+         flex-direction: column;
+         width: 33%;
+         padding: 1%;
+     }
+     
+     .inp-reg span {
+         display: flex;
+         justify-content: center;
+         padding: 0.2%;
+     }
+     
+     .direc-reg {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         width: 80%;
+     }
+     
+     .direc-flex {
+         display: flex;
+         flex-direction: column;
+         padding: 2%;
+         width: 40%;
+     }
+     
+     .direc-flex span {
+         padding-right: 5%;
+     }
+     
+     .btn-reg {
+         width: 100%;
+         height: 10%;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         padding: 2%;
+     }
+     
+     .bton {
+         width: 20%;
+         padding: 2%;
+         display: flex;
+         justify-content: center;
+         background-color: #1E1F26;
+         border-color: white;
+         border-radius: 25px;
+         color: white;
+     }
+     
+     .btn-img {
+         width: 100%;
+         background-color: #1E1F26;
+         border-color: white;
+         border-radius: 25px;
+         color: white;
+         margin-top: 10px;
+     }
+     
+     .cover {
+         background-image: url(../../../assets/img/skyscrapers-from-low-angle-view.jpg);
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .fondoLogin {
+         background-image: linear-gradient(#24803C, #5EAB97);
+         padding: 0;
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .alto {
+         padding-top: 50px;
+         padding-bottom: 50px;
+         height: 1300px !important;
+         width: 100% !important;
+     }
+     
+     .container-fluid {
+         padding: 0;
+         margin: 0;
+     }
+     
+     .img-user {
+         background-image: url(../../../assets/img/SubirImagen.jpg);
+         height: 100px;
+         width: 100px;
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .logo {
+         padding-left: 10px;
+         padding-top: 10px;
+     }
+     
+     .logo img {
+         height: 75px;
+         width: 200px;
+     }
+     
+     .form-control {
+         border-radius: 20px;
+     }

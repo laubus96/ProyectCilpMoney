@@ -1,0 +1,56 @@
+<div mat-dialog-content>
+
+
+
+
+
+
+    <div class="login-form">
+        <div class="container">
+            <div class="login">
+                <div class="form-icon">
+                    <img src="../../../assets/img/logo/logo_clip.png" width="200" alt="">
+                </div>
+
+                <form [formGroup]="uplogin" class="form-horizontal">
+
+                    <div class="form-group">
+                        <span class="input-icon"><i class="fa fa-user-circle"></i></span>
+                        <input type="text" class="form-control" placeholder="Usuario" formControlName="username">
+                        <div class="error" *ngIf="uplogin.get('username').hasError('required') &&
+                           uplogin.get('username').touched">
+                            Campo obligatorio*
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <span class="input-icon"><i class="fa fa-lock"></i></span>
+                        <input type="password" class="form-control" placeholder="Contraseña" formControlName="password">
+                        <div class="error" *ngIf="uplogin.get('password').hasError('required')  &&
+                           uplogin.get('password').touched">
+                            Campo obligatorio*
+                        </div>
+                        <div class="error" *ngIf="uplogin.get('password').hasError('maxLength') &&
+                           uplogin.get('password').touched">
+                            Minimo 8 caracteres*
+                        </div>
+                    </div>
+                    <button type="submit" [disabled]="uplogin.invalid" class="btn signin" (click)="onSubmit(uplogin.value)">
+            Iniciar Sesión</button>
+                    <span class="signup">No tienes cuenta? <button class="dialog" (click)="irRegistro()"
+              routerLink="/registro">Registrate aqui</button>
+          </span>
+                </form>
+                <span class="signup"> Olvido su contraseña? <button class=" dialog" mat-button (click)="openDialog()">
+            Recuperar contraseña</button></span>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div mat-mat-dialog-actions>
+    <br>
+
+    <button type="button" mat-button [mat-dialog-close]="true"><span>&times;</span></button>
+</div>

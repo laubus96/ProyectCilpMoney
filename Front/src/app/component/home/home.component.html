@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Cuenta</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!------------------- Titulo ------------------------------->
+            <div class="col-12">
+                <div class="title">
+                    <span>Cuenta</span>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row mb-5">
+            <div class="col-12">
+                <!------------------- Muestra los datos de tu cuenta y opciones para hacer ------------------------------->
+                <div class="main-cont">
+                    <div class="data-cliente">
+                        <span>Caja de ahorro N: </span>
+                        <span id="">{{this.user}}</span>
+                    </div>
+                    <span>Saldo disponible</span>
+                    <span id="">{{this.saldoActual}}</span>
+                    <div>
+                        <button class="btn colorNuevo ml-2" mat-button (click)="openDialog()">
+              <!-- <button class="btn colorNuevo ml-2" (click)="modal.open(content)"> -->
+              Depositar</button>
+
+                        <button class="btn colorNuevo ml-2" mat-button routerLink="/transferir">Transferir</button>
+
+                        <button class="btn colorNuevo ml-2" mat-button (click)="verMovimientos()"> Movimientos</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+                <!------------------- Titulo de movimientos ------------------------------->
+                <div class="title" *ngIf="movimientos==true">
+                    <span>Movimientos</span>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+
+            <div class="col-12">
+                <!------------------- Muestras tus movimientos de 10 en 10 ------------------------------->
+                <div *ngIf="movimientos==true">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">TipoMov</th>
+                                <th scope="col">Cliente</th>
+                                <!-- <th scope="col">Destino</th> -->
+                                <th scope="col">Monto</th>
+                                <th scope="col">Fecha</th>
+                                <th scope="col">Comprobante</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr *ngFor=" let mov of this.movimientosList | paginate: { itemsPerPage: 10, currentPage: p };">
+                                <th scope="row"></th>
+                                <td scope="row">{{mov.movimiento}}
+                                </td>
+                                <td scope="row">{{mov.Apellido}}</td>
+                                <!-- <td scope="row">{{mov.ApellidoDestino }}</td> -->
+                                <td scope="row">{{mov.monto}}</td>
+
+                                <td>{{mov.fecha}}</td>
+                                <td scope="row">{{mov.numComprobante}}</td>
+                                <td></td>
+                            </tr>
+
+                        </tbody>
+
+
+
+
+
+
+                    </table>
+                    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-------------------Modal para ingresar un monto a la cuenta ------------------------------->
+        <!-- <ng-template #content let-modal>
+            <div class="modal-header"></div>
+            <h4 class="modal-title title text-center">Depositar Dinero</h4>
+
+            <div class="modal-body">
+                <form [formGroup]="upSaldoForm" (ngSubmit)="onSubmit(upSaldoForm.value)" class="text-center">
+                    <span> Depositar: </span>
+                    <input type="text" name="saldo" id="saldo" placeholder='Ej: 100' formControlName="monto">
+                    <div class="error" *ngIf="upSaldoForm.get('monto').hasError('required') &&
+                           upSaldoForm.get('monto').touched">
+                        Campo obligatorio*
+                    </div>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn colorNuevo " [disabled]="upSaldoForm.invalid">Ingresar
+            Dinero</button>
+
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn colorsCerrar" type="button" (click)="modal.close()">Salir</button>
+            </div>
+        </ng-template>
+
+        <ng-template #contentOk let-modal>
+            <div class="modal-header"></div>
+            <h4 class="modal-title title text-center">Depositar Dinero</h4>
+
+            <div class="modal-body">
+                <h4 class="text-center title ">Clip Money</h4>
+                <br>
+
+                <p>La operacion a sido un exito!</p>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn colorsCerrar" type="button" (click)="modal.close()">Aceptar</button>
+            </div>
+        </ng-template> -->
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+
+<div class="container">
+    <div class="row mb-4">
+        <h2 class="display-1 text-center">Este es tu saldo</h2>
+        <h4 class="display-1 text-center">{{this.saldoActual}}</h4>
+
+    </div>
+    <div class="row mt-5">
+        <form [formGroup]="upSaldoForm" (ngSubmit)="onSubmit(upSaldoForm.value)" class="text-center">
+            <input type="text" name="saldo" id="saldo" placeholder='Ej: 100' formControlName="monto">
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary">Ingresar Dinero</button>
+
+        </form>
+
+    </div>
+    <button type="button" class="btn btn-primary mt-5" (click)="verMovimientos()">Ver movimientos</button>
+    <div class="row mt-5">
+
+
+        <table>
+
+            <tr>
+
+                <th>TipoMov</th>
+                <th>Cliente</th>
+                <th>Monto</th>
+                <th>Fecha</th>
+            </tr>
+
+            <tr *ngFor=" let mov of this.movimientosList">
+                <th scope="row"></th>
+                <td>Ingreso</td>
+                <td>{{this.apellido}}</td>
+                <td>{{mov.monto}}</td>
+
+                <td>{{mov.fecha}}</td>
+                <td></td>
+            </tr>
+
+
+        </table>
+
+
+    </div>
+
+
+
+
+
+
+    <br>
+
+</div> -->

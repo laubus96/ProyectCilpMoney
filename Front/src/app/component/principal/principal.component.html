@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- FUENTES CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Gruppo&display=swap" rel="stylesheet">
+
+    <title>Clip Money</title>
+</head>
+
+<body>
+    <!----------------------NAV BAR------------------------->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:aliceblue" sticky-top>
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logotipo" src="../../../assets/img/logo/logo_clip.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                    <div class="navbar-nav ml-auto">
+                        <!-- <a class="nav-link" href="#inicio" style="color: black;">Iniciar Sesion</a>
+                    <a class="nav-link" href="#register" style="color: black;">Registrarme</a> -->
+                        <a class="nav-link" href="#aboutus" style="color: black;">Quienes somos</a>
+
+
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn colorNuevo" mat-button (click)="openDialog()">
+              Iniciar Sesion
+            </button>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+    <!---------------------- CAROUSEL ------------------------->
+    <div class="slide-container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../../assets/img/carousel/slide4.jpg" class="d-block w-100" alt="slider01">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../../../assets/img/carousel/slide2.jpg" class="d-block w-100" alt="slider02">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../../../assets/img/carousel/slide3.jpg" class="d-block w-100" alt="slider03">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Atras</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+
+    <!---------------------------- MAIN ------------------------------>
+
+    <main>
+
+        <section>
+            <div class="container main-container">
+                <br><br><br><br><br>
+                <h1 style="color:black;text-align: center;font-size: 40px; font-family: 'Times New Roman', Times, serif;">
+                    CLIP MONEY
+                </h1>
+                <br>
+                <p style="font-size: 20px; text-align: center;font-family: 'Times New Roman', Times, serif;">Nosotros cuidamos tu Dinero</p>
+                <br><br><br><br><br>
+            </div>
+
+        </section>
+
+        <div id="aboutus" class="container">
+            <h1 style="color:black;text-align: center;font-size: 40px; font-family: 'Times New Roman', Times, serif;">
+                ¿QUIENES SOMOS?
+            </h1>
+            <br>
+            <p style="font-size: 20px;">
+                Bienvenido a CLIP Money, la fuente número uno en monederos virtuales. Somos una empresa dedicada a brindarle la mejor atencion, confianza y cuidado de su dinero.
+
+                <br><br> Fundada en 2020 por el grupo de inversores "4D", CLIP Money ha recorrido un largo camino desde sus inicios hasta el dia de hoy.
+
+                <br><br> Esperamos que disfrute de nuestros servicios tanto como nosotros disfrutamos ofrecérselos. Si tiene alguna pregunta o comentario, no dude en contactarnos.
+
+                <br><br> Atentamente,
+                <br> Equipo de CLIP Money.
+            </p>
+
+        </div>
+
+        <!-------------------------- Modal ---------------------------------->
+
+
+        <!-- <div class="modal" data-toggle="modal" data-backdrop="false" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="login-form">
+                <div class="container">
+                    <div class="login">
+                        <div class="form-icon">
+                            <img src="../../../assets/img/logo/logo_clip.png" width="200" alt="">
+                        </div>
+
+                        <form action="#" method="post" class="form-horizontal">
+                            <div class="form-group">
+                                <span class="input-icon"><i class="fa fa-user-circle"></i></span>
+                                <input type="text" class="form-control" placeholder="Usuario" [formControl]="usernameControl">
+                            </div>
+
+                            <div class="form-group">
+                                <span class="input-icon"><i class="fa fa-lock"></i></span>
+                                <input type="password" class="form-control" placeholder="Contraseña" [formControl]="passwordControl">
+                            </div>
+
+                            <button type="button" class="btn signin" (click)="onSubmit()"> Iniciar Sesión</button>
+                            <span class="signup">No tienes cuenta? <a class="href-reg" routerLink="/registro">
+                  <span class="href-reg">Hace click aqui</span>
+                            </a>
+
+
+                            </span>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span>&times;</span>
+              </button>
+
+                        </form>
+                        <button class="btn" mat-button (click)="openDialog()">
+              Recuperar contraseña</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+ -->
+
+    </main>
+
+
+
+    <!---------------------- FOOTER ------------------------->
+    <footer>
+        <div class="container text-muted text-center py-3 mt-5">
+            <br><br>
+            <img class="imgFooter" src="../../../assets/img/logo/logo_clip.png" alt="">
+            <br><br>
+            <h5 class="pieFooter">Copyright &copy; 2020 | Grupo 4</h5>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
